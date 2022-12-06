@@ -1,47 +1,16 @@
-# Build A Digital Resume Using Python & Streamlit
-Create a digital resume in minutes with Python and Streamlit. In this tutorial, I'll show you what it takes to build a digital resume using Python and Streamlit.<br>
+# GLG_NLP_APP
+# Build An NLP Application Using Python & Streamlit
 
-Feel free to use this template and adjust it to your needs & linking.<br>
+## Problem Statement:
+Our company receives hundreds of requests a day from clients seeking insights on topics ranging from the
+airline industry’s ability to cope with COVID-19 to the zebra mussel infestations in North America. The goal is to match each request to a topic specialist in our database.
 
-💡 **The website design is inspired by [@divanov11](https://github.com/divanov11)** 💡 <br>
-Find his:
-- repository here: https://github.com/divanov11/Digital-Resume
-- YouTube video here: https://youtu.be/clwpf3VwCZQ
-
-## Live Demo
-👉 **https://resume.pythonandvba.com/**
-
-## Screenshots
-![Demo1](./assets/demo1.png?raw=true "Demo1")
-![Demo2](./assets/demo2.png?raw=true "Demo2")
-![Demo3](./assets/demo3.png?raw=true "Demo3")
-
-## Video Tutorial
-[![YouTube Video](https://img.youtube.com/vi/BXAeMICmUSQ/0.jpg)](https://youtu.be/BXAeMICmUSQ)
-
-
-## Requirements
-Install the dependencies with pip
-```
-Pillow==9.2.0
-streamlit==1.12.0
-```
-
-## Run the app
-Terminal
-```
-# vanilla terminal
-streamlit run app.py
-```
-
-## About Me
-- Sven from Coding Is Fun
-- YouTube: https://youtube.com/c/CodingIsFun
-- Website: https://pythonandvba.com
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X7X47Q0EG)
+## Solution:
+My solution to this problem would break down each request into topics ranging from Science, Health, Education, etc.
+and additionally performing NER on the text. While researching the problem statement, I found that in many cases,
+inter-topic distance is very less i.e., topics tend to overlap and in those cases, it is difficult to decide the nature
+of the request in case of large text. In my project, I have dealt with this issue by applying a text summarization model
+and thereby making the text more readable. My approach has been to use all NLP solutions to break down complicated-looking texts into simple forms.
 
 ## Feedback
-If you have any feedback, please reach out to me at contact@pythonandvba.com
-![Logo](https://www.pythonandvba.com/banner-img)
-# GLG_NLP_APP
+If you have any feedback, please reach out to me at krishanusinha12@gmail.com
